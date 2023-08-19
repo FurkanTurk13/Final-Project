@@ -1,0 +1,1159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/nisangtr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: auto;
+    height: 15vh;
+
+}
+
+.Features {
+    width: 15%;
+    height: 15vh;
+    border: 1px solid rgb(74, 73, 73);
+    background-color: transparent;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 771px;
+    font-size: 17px;
+
+
+}
+
+.Features a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.Features p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.Features p:hover {
+    text-decoration: underline;
+}
+
+.contact p:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    width: 15%;
+    height: 15vh;
+    border: 1px solid rgb(74, 74, 74);
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 771px;
+    font-size: 22px;
+
+}
+
+.contact a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.contact p {
+    margin-top: 50px;
+    margin-right: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.icon {
+    width: 9.3%;
+    height: 15vh;
+    border: 1px solid rgb(73, 73, 73);
+    background-color: tr;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 771px;
+    text-align: center;
+
+}
+
+.icon i {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+
+}
+
+.Pushing h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: 300;
+    width: 50%;
+    height: 20vh;
+    position: relative;
+    left: 220px;
+    display: flex;
+
+}
+
+.acces {
+    position: relative;
+    background-color: #21232A;
+    width: 15%;
+    height: 7vh;
+    top: 430px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.acces button {
+
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 60px;
+    top: 17px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.acces:hover i {
+    transform: translateX(20px);
+    transition: all .3s ease;
+
+}
+
+.acces::after i {
+    transition: all .1s ease;
+    content: '';
+
+}
+
+
+.eqc {
+    width: 10%;
+    position: relative;
+    top: 340px;
+    left: 1450px;
+}
+
+.eqc h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Stromverbrauch {
+    position: relative;
+    top: 350px;
+    left: 1270px;
+    width: 20%;
+    color: white;
+}
+
+.Stromverbrauch p {
+    justify-content: end;
+    display: flex;
+    text-align: end;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.icondolu {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+
+.Modernistic {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    width: 23%;
+    display: flex;
+}
+
+.Modernistic i {
+    position: relative;
+    bottom: 60px;
+    right: 200px;
+    font-weight: 600;
+}
+
+.sound {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    top: 183px;
+    left: 500px;
+    display: flex;
+    position: relative;
+    width: 23%;
+
+}
+
+.sound i {
+    position: relative;
+    bottom: 55px;
+    right: 200px;
+    font-weight: 600;
+}
+
+.Progressive {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    top: 123px;
+    left: 900px;
+    display: flex;
+    position: relative;
+    width: 23%;
+
+}
+
+.Progressive i {
+    position: relative;
+    bottom: 50px;
+    right: 200px;
+    font-weight: 600;
+}
+
+.Ease {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    top: 64px;
+    left: 1240px;
+    display: flex;
+    position: relative;
+    width: 23%;
+}
+
+.Ease i {
+    position: relative;
+    bottom: 50px;
+    right: 200px;
+    font-weight: 600;
+}
+
+.tekerler {
+    width: 100%;
+    height: 290vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.tekerler p {
+    position: relative;
+    left: 110px;
+    font-size: 18px;
+    color: #a9a9a9;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    width: 10%;
+}
+
+.tekerler h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    width: 10%;
+    font-weight: 500;
+}
+
+.bmw img {
+    width: 40%;
+    position: relative;
+    left: 900px;
+    bottom: 150px;
+}
+
+.bmw p {
+    color: white;
+    width: 25%;
+    position: relative;
+    left: 910px;
+    bottom: 120px;
+}
+
+.porshedisk img {
+    width: 35%;
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+
+.porshedisk p {
+    font-size: 18px;
+    color: #a9a9a9;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    width: 20%;
+    bottom: 470px;
+}
+
+.salon img {
+    width: 40%;
+    position: relative;
+    left: 900px;
+    bottom: 850px;
+}
+
+.salon p {
+    width: 20%;
+    position: relative;
+    bottom: 825px;
+    left: 900px;
+}
+
+
+
+
+.rul img {
+    width: 40%;
+    height: 85vh;
+    bottom: 1300px;
+    left: 90px;
+    position: relative;
+}
+
+.rul p {
+    width: 22%;
+    position: relative;
+    bottom: 1260px;
+    color: white;
+}
+
+.lambo {
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.lambo p {
+    color: #a9a9a9;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.lambo h2 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    margin-left: 25px;
+}
+
+.urus img {
+    width: 60%;
+    height: 70vh;
+    position: relative;
+    left: 350px;
+    display: flex;
+    top: 100px;
+}
+
+.mavi img {
+    width: 61%;
+    position: relative;
+    bottom: 473px;
+    right: 720px;
+}
+
+.hyundai img {
+    bottom: 1059px;
+    left: 1400px;
+    width: 17%;
+    position: relative;
+    display: flex;
+
+}
+
+.mi h4 {
+    font-family: 'Raleway', sans-serif;
+    bottom: 900px;
+    color: white;
+    position: relative;
+    left: 500px;
+    font-size: 35px;
+    font-weight: 500;
+    width: 10%;
+}
+
+.mi p {
+    font-family: 'Lato', sans-serif;
+    bottom: 875px;
+    color: #a9a9a9;
+    position: relative;
+    left: 400px;
+    width: 15%;
+    font-weight: 300;
+
+}
+
+.ikiyuzmi h4 {
+    font-family: 'Raleway', sans-serif;
+    bottom: 985px;
+    color: white;
+    position: relative;
+    left: 850px;
+    font-size: 35px;
+    font-weight: 500;
+    width: 10%;
+}
+
+.ikiyuzmi p {
+    font-family: 'Lato', sans-serif;
+    bottom: 955px;
+    color: #a9a9a9;
+    position: relative;
+    left: 750px;
+    width: 15%;
+    font-weight: 300;
+
+}
+
+.igirmi h4 {
+    font-family: 'Raleway', sans-serif;
+    bottom: 1065px;
+    color: white;
+    position: relative;
+    left: 1250px;
+    font-size: 35px;
+    font-weight: 500;
+    width: 10%;
+}
+
+.igirmi p {
+    font-family: 'Lato', sans-serif;
+    bottom: 1045px;
+    color: #a9a9a9;
+    position: relative;
+    left: 1150px;
+    width: 15%;
+    font-weight: 300;
+}
+
+.designurs {
+    position: relative;
+    background-color: #21232A;
+    width: 15%;
+    height: 7vh;
+    color: rgb(255, 255, 255);
+    border: none;
+    bottom: 900px;
+    left: 600px;
+}
+
+.designurs button {
+    left: 60px;
+    top: 17px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.designurs:hover i {
+    transform: translateX(20px);
+    transition: all .3s ease;
+
+}
+
+.designurs::after i {
+    transition: all .3s ease;
+    content: '';
+
+}
+
+.compare {
+    position: relative;
+    background-color: transparent;
+    width: 15%;
+    height: 7vh;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    bottom: 955px;
+    left: 900px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.compare button {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+    top: 17px;
+}
+
+.compare:hover i {
+    transform: translateX(20px);
+    transition: all .3s ease;
+
+}
+
+.compare::after i {
+    transition: all .3s ease;
+    content: '';
+
+}
+
+.prius {
+    margin-top: 1px;
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.priusvurmus img {
+    position: relative;
+    left: 100px;
+    top: 300px;
+    width: 30%;
+}
+
+.priusvurmus img {
+    width: 45%;
+}
+
+.impact p {
+    font-size: 18px;
+    width: 20%;
+    color: #a9a9a9;
+    position: relative;
+    left: 1100px;
+    bottom: 200px;
+    font-family: 'Lato', sans-serif;
+}
+
+.pro {
+    color: white;
+    position: relative;
+    left: 1097px;
+    bottom: 200px;
+    width: 30%;
+}
+
+.pro h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.tincidunt p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 300;
+    left: 1100px;
+    bottom: 170px;
+    position: relative;
+}
+
+
+.agnisan {
+    width: 100%;
+    height: 110vh;
+    background-image: url(../img/ag\ nisan.jpg);
+}
+
+.focus h2 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 57%;
+    font-size: 70px;
+}
+
+.schedule {
+    position: relative;
+    background-color: #21232A;
+    width: 20%;
+    height: 9vh;
+    top: 430px;
+    left: 100px;
+
+
+}
+
+.schedule button {
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 90px;
+    top: 27px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.schedule:hover i {
+    transform: translateX(20px);
+    transition: all .3s ease;
+
+}
+
+.schedule::after i {
+    transition: all .3s ease;
+    content: '';
+
+}
+
+.matic {
+    width: 15%;
+    color: red;
+    position: relative;
+    left: 1400px;
+    top: 340px;
+
+}
+
+.matic h5 {
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.iyirmibir {
+    position: relative;
+    top: 365px;
+    left: 1200px;
+    width: 24%;
+    color: white;
+}
+
+.iyirmibir p {
+    justify-content: end;
+    display: flex;
+    text-align: end;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.wolks {
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.wolks p {
+    color: #a9a9a9;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: 10%;
+}
+
+.elegant {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    top: 190px;
+    left: 150px;
+    width: 10%;
+    position: relative;
+}
+
+.elegant h2 {
+    font-weight: 500;
+    width: 20%;
+    font-size: 70px;
+}
+
+.passat img {
+    width: 40%;
+    top: 300px;
+    left: 170px;
+    position: relative;
+}
+
+.passat p {
+    position: relative;
+    top: 350px;
+    width: 27%;
+    font-weight: 300;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.mustang img {
+    width: 37%;
+    position: relative;
+    left: 1000px;
+    bottom: 800px;
+}
+
+.mustang ul li {
+    list-style-type: none;
+    position: relative;
+    color: rgb(175, 175, 175);
+    left: 1000px;
+    width: 29%;
+    bottom: 700px;
+    font-size: 22px;
+}
+
+.masin {
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 0.1px;
+
+}
+
+.masin h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 30%;
+}
+
+.masin p {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 30%;
+}
+
+.range h5 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 100px;
+    top: 300px;
+    font-size: 22px;
+    width: 10%;
+}
+
+.range p {
+    color: white;
+    position: relative;
+    top: 310px;
+    font-family: 'Raleway', sans-serif;
+    width: 10%;
+
+}
+
+.mile p {
+    position: relative;
+    top: 350px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mile h5 {
+    color: white;
+    position: relative;
+    top: 350px;
+    left: 100px;
+    font-size: 22px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.peak h5 {
+    color: white;
+    position: relative;
+    top: 400px;
+    left: 100px;
+    font-size: 22px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.peak p {
+    position: relative;
+    top: 400px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wheels h5 {
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 400px;
+    font-size: 22px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wheels p {
+    color: white;
+    position: relative;
+    top: 165px;
+    left: 400px;
+    font-size: 18px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.Cargo h5 {
+    color: white;
+    position: relative;
+    top: 210px;
+    left: 400px;
+    font-size: 22px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Cargo p {
+    color: white;
+    position: relative;
+    top: 215px;
+    left: 400px;
+    font-size: 18px;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lucidocar {
+    left: 700px;
+    position: relative;
+    width: 30%;
+    bottom: 200px;
+}
+
+.dordmasin {
+    width: 100%;
+    height: 200vh;
+    background-color: aquamarine;
+}
+
+.banner1 {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/brabus.jpg);
+}
+
+.banner1 h5 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    width: 25%;
+}
+
+.banner1 p {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    width: 25%;
+    top: 120px;
+    left: 100px;
+}
+
+
+
+
+.banner2 {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/vutvut.jpg);
+}
+
+.banner2 h5 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    width: 25%;
+}
+
+.banner2 p {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    width: 25%;
+    top: 120px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+.banner3 {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/home-banner-img-3.jpg);
+}
+
+.banner3 h5 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    width: 25%
+}
+
+.banner3 p {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    width: 25%;
+    top: 120px;
+    left: 100px;
+}
+
+.banner4 {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/home-banner-img-4.jpg);
+}
+
+.banner4 h5 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    width: 25%
+}
+
+.banner4 p {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    width: 25%;
+    top: 120px;
+    left: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.basliq {
+    width: 25%;
+    height: 15vh;
+}
+
+.basliq img {
+    position: relative;
+    left: 135px;
+    top: 150px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.basliq P {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    position: relative;
+    font-weight: 500;
+    left: 130px;
+    top: 200px;
+}
+
+.basliq span {
+    color: #a9a9a9;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 350px;
+    left: 125px;
+}
+
+.next {
+    width: 25%;
+    height: 15vh;
+}
+
+.next p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 560px;
+    top: 35px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.next span {
+    color: white;
+    display: block;
+    position: relative;
+    left: 540px;
+    top: 50px;
+    margin: 10px 20px 10px 20px;
+    font-size: 18px;
+}
+
+.all {
+    width: 20%;
+    height: 15vh;
+}
+
+.all p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 900px;
+    bottom: 85px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.all span {
+    color: white;
+    display: block;
+    position: relative;
+    left: 880px;
+    bottom: 60px;
+    margin: 10px 20px 10px 20px;
+    font-size: 18px;
+}
+
+.socialmedia {
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.socialmedia p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 1100px;
+    bottom: 205px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+}
+
+.socialmedia i {
+    left: 870px;
+    position: relative;
+    margin: 20px 20px 20px;
+    bottom: 150px;
+    font-size: 22px;
+
+}
+
+.mytotop {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    line-height: 120px;
+    color: black;
+    margin-right: 30px;
+
+    width: 120px;
+    height: 120px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+
+.mytotop{
+    scroll-behavior: smooth;
+}
